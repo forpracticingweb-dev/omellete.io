@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+*::after, *::before{
+    box-sizing: inherit;
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: 'Young Serif', sans-serif;
+
+    background: rgba(7, 95, 177, 0.647);
+}
+article{
+    font-family: sans-serif;
+}
+.card_container{
+    display: flex;
+    padding-top: 3rem;
+}
+.card_container-content{
+    border: 1px solid white;
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 1.3rem;
+}
+.card_container-content img{
+width: 100%;
+border-radius: 1.5rem;
+padding: 1rem;
+object-fit: cover;
+
+}
+.card_container-content p{
+    font-family: sans-serif;
+}
+@media(max-width: 35em){
+    .card_container-content img{
+        border-radius: 0rem;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .card_container{
+        padding: 0rem;
+    }
+    .card_container-content{
+        border: 0;
+        background-color: white;
+        max-width: 100%;
+    }
+    
+}
+.card_container-content h1 {
+    padding: 1rem;
+}
+
+.card_container-content p {
+
+    font-size: .9rem;
+    padding: 1rem;
+}
+.card__details{
+    padding: 1rem;
+}
+.card__time{
+    background-color: pink;
+    padding: 1.5rem;
+    line-height: 2.5;
+    border-radius: 1rem;
+}
+.card__time ul{
+    padding-left: 1rem;
+}
+.card__time li{
+    padding-left: 1rem;
+}
+.card__time span{
+    color: grey;
+}
+.article_ingredient{
+    padding: 1rem;
+}
+.article__ingredients-content{
+    line-height: 2.5;
+}
+.article__ingredients-content h2{
+    padding-left: 1rem;
+    
+}
+.article__ingredients-content ul{
+    padding-left: 2rem;
+    color: grey;
+}
+.article__ingredients-content li{
+    padding-left: 2rem;
+}
+.article_instructions{
+    line-height: 2.5;
+}
+.article__instructions{
+
+    padding: 2rem;
+}
+.article__instructions-content h2{
+    padding-left: 2rem;
+}
+
+.article__instructions-content ul{
+    padding-left: 3rem;
+}
+.article__instructions-content li{
+    padding-left: 1rem;
+}
+.article__instructions-content span{
+    color: rgba(0, 0, 0, 0.479);
+}
+.article__instructions-content li{
+    list-style-type: decimal;
+}
+table,th, td {
+    border-collapse: collapse;
+    padding: .5rem 0 .5rem 2rem;
+  }
+th, td{
+    border-bottom: 1px solid
+}
+.article_nutrition h2{
+    padding: 1rem 0 0 1rem;
+    color: brown;
+
+}
+article h2{
+    font-family: 'Young Serif'
+}
+aritcle h1{
+
+    font-family: 'Young Serif'
+}
